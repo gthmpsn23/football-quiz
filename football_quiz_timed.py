@@ -86,6 +86,11 @@ questions = [
 
 ("\nWho has won the Serie A the most times?", ["A: A.C Milan", "B: Inter Milan", "C: Juventus", "D: Roma"],"C"),
 
+("\nWho has the record for highest transfer fee?", ["A: Cristiano Ronaldo", "B: Neymar", "C: Kylian Mbappe", "D: Lionel Messi"],"B"),
+
+("\nWhich Spanish club has won La Liga the most times?", ["A: Valencia", "B: Real Madrid", "C: Atletico Madrid", "D: F.C Barcelona "],"B"),
+
+
 ]
 
 score = 0
