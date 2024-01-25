@@ -4,31 +4,31 @@ import time
 
 # Email validator, validates the email based on the format of the string.
 
-# def email_validator(email):
-#     pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
-#     if re.match(pattern, email, re.IGNORECASE):
-#         print("Valid Email")
-#     else:
-#         print("Invalid Email")
+def email_validator(email):
+    pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+    if re.match(pattern, email, re.IGNORECASE):
+        print("Valid Email")
+    else:
+        print("Invalid Email")
 
 
 # Forces user to create a username with more than six characters
 
-# while True:
-#     print("Create your username. Your username must be more than six characters.")
-#     user_name = input("Enter a username: ")
+while True:
+    print("Create your username. Your username must be more than six characters.")
+    user_name = input("Enter a username: ")
 
-#     if len(user_name) > 6:
-#         print(f"Hey {user_name}")
-#         break
-#     else:
-#         print("username is too short!")
+    if len(user_name) > 6:
+        print(f"Hey {user_name}")
+        break
+    else:
+        print("username is too short!")
 
 
 # calls email validator
 
-# email_address = input("Enter your email address: ").strip()
-# email_validator(email_address)
+email_address = input("Enter your email address: ").strip()
+email_validator(email_address)
 
 # quiz function based on time. 
 
